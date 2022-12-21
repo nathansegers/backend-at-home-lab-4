@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Smart XR Developer",
+        "description": "Welkom in het tijdperk van spatial computing. Waar de echte en de virtuele wereld versmelten tot een rijkere en betere ervaring voor iedereen. Als eerste profiel in Vlaanderen word je klaargestoomd voor het tijdperk waarin innovatieve Extended Reality (XR) interfaces on-the-job-training, medische interventies en mobiliteit naar een ander niveau zullen brengen.",
+        "weight": 10
+    },
+    {
+        "title": "Next Web Developer",
+        "description": "Hoe laat je een drone vliegen met enkel code? Hoe kan je gebruikers razendsnel realtime laten communiceren? Zit web development ook in jouw DNA? Zie jij het potentieel in smartwatches en smartphones? Dat gevoel kennen we. We gaan aan de slag met zo veel meer dan een simpele klik of swipe. Een hartslag die verhoogt, een wenkbrauw die omhooggaat, een nieuwe houding of de toon van je stem: voor ons is het input.",
+        "weight": 20
+    },
+    {
+        "title": "AI Engineer",
+        "description": "Het verkeer slimmer aansturen, kanker sneller opsporen, misdaden oplossen door het verbeteren van lage resolutie beelden en robots aansturen. Supervised learning en Neurale netwerken doen jou dromen van het ontwikkelen van AI software die zelf leert patronen ontdekken, voorspellingen maken of objecten herkennen. Software die net dat beetje slimmer is en nieuwe inzichten vindt in de immer streamende data.",
+        "weight": 30
+    },
+    {
+        "title": "IoT Infrastructure Engineer",
+        "description": "Als gepassioneerd IoT Infrastructure Engineer sta je in het kloppend hart van de onderneming. Je onderhoudt het netwerk en servers met aandacht voor bedrijfscontinuïteit. Je hebt daarbij oog voor de modernste beveiliging tegen externe en interne bedreigingen.",
+        "weight": 40
+    }
+]

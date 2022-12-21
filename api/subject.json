@@ -1,0 +1,122 @@
+{
+    "_type": "Subject",
+    "title": "Object Oriented Programming",
+    "weight": 10,
+    "description": "Object Oriented Programming is a concept that's often used when working in bigger applications to structure your code in a way that's easy to understand and maintain. It's a way of thinking about your code and how it's structured. It's not a language, but a concept that can be applied to any language.",
+    "courses": [
+        {
+            "_type": "SubjectCourse",
+            "title": "Object Oriented Programming in C#",
+            "description": "This course will teach you the basics of Object Oriented Programming in C#.",
+            "topics": [
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Classes",
+                    "week": 1,
+                    "description": "Classes are the building blocks of Object Oriented Programming. They are the blueprints for objects. They define the properties and methods that an object has.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "C# Classes",
+                            "description": "This is a great resource for learning about classes in C#.",
+                            "link": "https://www.w3schools.com/cs/cs_classes.asp"
+                        }
+                    ]
+                },
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Objects",
+                    "week": 2,
+                    "description": "Objects are the instances of a class. They are the actual things that you create from a class. They have the properties and methods that are defined in the class.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "C# Objects",
+                            "description": "This is a great resource for learning about objects in C#.",
+                            "link": "https://www.w3schools.com/cs/cs_classes.asp"
+                        }
+                    ]
+                },
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Inheritance",
+                    "week": 3,
+                    "description": "Inheritance is a way of creating a new class from an existing class. The new class will have all the properties and methods of the existing class, and can add new properties and methods of its own.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "C# Inheritance",
+                            "description": "This is a great resource for learning about inheritance in C#.",
+                            "link": "https://www.w3schools.com/cs/cs_inheritance.asp"
+                        }
+                    ]
+                }
+            ],
+            "resources": [
+                {
+                    "_type": "SubjectResource",
+                    "title": "C# Object Oriented Programming",
+                    "description": "This is a great resource for learning Object Oriented Programming in C#.",
+                    "link": "https://www.w3schools.com/cs/cs_oop.asp"
+                }
+            ]
+        },
+        {
+            "_type": "SubjectCourse",
+            "title": "Object Oriented Programming in Python",
+            "description": "This course will teach you the basics of Object Oriented Programming in Python.",
+            "topics": [
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Classes",
+                    "week": 1,
+                    "description": "Classes are the building blocks of Object Oriented Programming. They are the blueprints for objects. They define the properties and methods that an object has.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "Python Classes",
+                            "description": "This is a great resource for learning about classes in Python.",
+                            "link": "https://www.w3schools.com/python/python_classes.asp"
+                        }
+                    ]
+                },
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Objects",
+                    "week": 2,
+                    "description": "Objects are the instances of a class. They are the actual things that you create from a class. They have the properties and methods that are defined in the class.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "Python Objects",
+                            "description": "This is a great resource for learning about objects in Python.",
+                            "link": "https://www.w3schools.com/python/python_classes.asp"
+                        }
+                    ]
+                },
+                {
+                    "_type": "SubjectTopic",
+                    "title": "Inheritance",
+                    "week": 3,
+                    "description": "Inheritance is a way of creating a new class from an existing class. The new class will have all the properties and methods of the existing class, and can add new properties and methods of its own.",
+                    "resources": [
+                        {
+                            "_type": "SubjectResource",
+                            "title": "Python Inheritance",
+                            "description": "This is a great resource for learning about inheritance in Python.",
+                            "link": "https://www.w3schools.com/python/python_inheritance.asp"
+                        }
+                    ]
+                }
+            ],
+            "resources": [
+                {
+                    "_type": "SubjectResource",
+                    "title": "Python Object Oriented Programming",
+                    "description": "This is a great resource for learning Object Oriented Programming in Python.",
+                    "link": "https://www.w3schools.com/python/python_classes.asp"
+                }
+            ]
+        }
+    ]
+}

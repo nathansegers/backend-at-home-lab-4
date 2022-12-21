@@ -1,0 +1,65 @@
+services:
+  # mariadb database
+  mariadb:
+    image: mariadb:10.9.4
+    restart: always
+    # environment:
+    #   MYSQL_USER: user
+    #   MYSQL_PASSWORD: password
+    #   MYSQL_DATABASE: database
+    #   MYSQL_ROOT_PASSWORD: password
+    env_file:
+      - .env
+    volumes:
+      - db:/var/lib/mysql
+    ports:
+      - 3306:3306
+    # expose:
+    #   - 3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+  api:
+    # Replace with the image name of your choice.
+    # Follow this format: <your-username>/<your-project-name>:<tag>
+    image: nathansegers/backend-at-home-04-api:latest
+    build:
+        context: .
+        dockerfile: Dockerfile
+    restart: always
+    ports:
+        - 8000:8000
+    env_file:
+        - .env
+    # This should be set seperately, not in the `.env` file, because you're also using the `.env` file in local development and in your database container.
+    # By adding this seperate environment variable, we define that the ENVIRONMENT we are working with is in DOCKER. This will use other settings than the local development settings.
+    environment:
+        ENVIRONMENT: DOCKER
+
+  mongodb:
+    image: mongo:6.0 # 6.0 is currently the latest version
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - mongodb:/data/db # Data storage path
+    # expose:
+    #   - 27017 # Default port for MongoDB
+    ports:
+      - 27017:27017 # Default port for MongoDB
+
+  mongo-express:
+    image: mongo-express:1.0.0-alpha.4
+    restart: always
+    ports:
+      - 8081:8081
+    env_file:
+      - .env
+
+volumes:
+  db:
+  mongodb:
